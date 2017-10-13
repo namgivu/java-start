@@ -1,4 +1,4 @@
-package com.github.namgivu;
+package com.github.namgivu.java_start;
 
 public class Main {
 
