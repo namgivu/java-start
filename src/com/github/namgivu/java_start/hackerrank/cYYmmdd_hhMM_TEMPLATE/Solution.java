@@ -1,6 +1,7 @@
 package com.github.namgivu.java_start.hackerrank.cYYmmdd_hhMM_TEMPLATE;
 
 import java.io.*;
+import java.util.Arrays;
 import java.util.Scanner;
 
 
@@ -18,13 +19,14 @@ public class Solution {
 		//endregion io - redirect I/O to files
 
 		Scanner scan = new Scanner(System.in);
-		int a = scan.nextInt();
-		int b = scan.nextInt();
-		int c = scan.nextInt();
+		int n = scan.nextInt();
+		int[] a = new int[n];
+		for (int i = 0; i < n; i++) {
+			a[i] = scan.nextInt();
+		}
 
-		System.out.println(a);
-		System.out.println(b);
-		System.out.println(c);
+		System.out.println(n);
+		System.out.println(Arrays.toString(a));
 	}
 
 }
