@@ -1,7 +1,6 @@
-package com.github.namgivu.java_start.hackerrank.c171016_1600_ifelse;
+package com.github.namgivu.java_start.hackerrank._archive_.c171016_1600_ifelse;
 
 import java.io.*;
-import java.util.Arrays;
 import java.util.Scanner;
 
 

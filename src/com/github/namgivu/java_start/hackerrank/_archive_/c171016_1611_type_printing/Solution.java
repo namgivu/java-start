@@ -1,4 +1,4 @@
-package com.github.namgivu.java_start.hackerrank.c171016_1100_inout;
+package com.github.namgivu.java_start.hackerrank._archive_.c171016_1611_type_printing;
 
 import java.io.*;
 import java.util.Scanner;
@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class Solution {
 
-	//challenge ref. https://www.hackerrank.com/challenges/java-stdin-and-stdout-1
-	static String CHALLENGE_NAME	= "hackerrank/c171016_1100_inout";
+	//challenge ref. https://www.hackerrank.com/challenges/java-stdin-stdout/problem
+	static String CHALLENGE_NAME	= "hackerrank/c171016_1611_type_printing";
 	static String CODE_HOME 			= "/home/namgvu/NN/code/java-start/src/com/github/namgivu/java_start";
 
 	public static void main(String[] args) throws FileNotFoundException {
@@ -20,13 +20,16 @@ public class Solution {
 		//endregion io - redirect I/O to files
 
 		Scanner scan = new Scanner(System.in);
-		int a = scan.nextInt();
-		int b = scan.nextInt();
-		int c = scan.nextInt();
+		String l;
 
-		System.out.println(a);
-		System.out.println(b);
-		System.out.println(c);
+		int i = scan.nextInt();
+		Double d = scan.nextDouble();
+		scan.nextLine(); //skip empty value by int/double lines
+		String s = scan.nextLine();
+
+		System.out.println("String: " + s);
+		System.out.println("Double: " + d);
+		System.out.println("Int: " + i);
 	}
 
 }
