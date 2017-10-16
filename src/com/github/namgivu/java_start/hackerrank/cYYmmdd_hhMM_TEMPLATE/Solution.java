@@ -1,5 +1,7 @@
 package com.github.namgivu.java_start.hackerrank.cYYmmdd_hhMM_TEMPLATE;
 
+import com.github.namgivu.java_start.util.Util;
+
 import java.io.*;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -13,13 +15,7 @@ public class Solution {
 	static String CHALLENGE_NAME	= "cYYmmdd_hhMM_TEMPLATE";
 
 	public static void main(String[] args) throws FileNotFoundException {
-		//region io - redirect I/O to files
-		String CHALLENGE_HOME	= String.format("%s/%s/%s", CODE_HOME, VAULT_FOLDER, CHALLENGE_NAME);
-		String IO_FILE_INPUT	= String.format("%s/io/input.txt",  CHALLENGE_HOME);
-		String IO_FILE_OUTPUT	= String.format("%s/io/output.txt", CHALLENGE_HOME);
-		System.setIn(new FileInputStream(IO_FILE_INPUT)); //ref. https://stackoverflow.com/a/188654/248616
-		System.setOut(new PrintStream(new BufferedOutputStream(new FileOutputStream(IO_FILE_OUTPUT)), true)); //ref. https://stackoverflow.com/a/2851254/248616
-		//endregion io - redirect I/O to files
+		Util.redirectIO(CODE_HOME, VAULT_FOLDER, CHALLENGE_NAME);
 
 		Scanner scan = new Scanner(System.in);
 		int n = scan.nextInt();
