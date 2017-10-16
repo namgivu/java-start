@@ -6,12 +6,13 @@ import java.util.Scanner;
 
 
 public class Solution {
-	static String CHALLENGE_NAME	= "codewar/cYYmmdd_hhMM_TEMPLATE";
 	static String CODE_HOME 			= "/home/namgvu/NN/code/java-start/src/com/github/namgivu/java_start";
+	static String VAULT_FOLDER		= "codewar";
+	static String CHALLENGE_NAME	= "cYYmmdd_hhMM_TEMPLATE";
 
 	public static void main(String[] args) throws FileNotFoundException {
 		//region io - redirect I/O to files
-		String CHALLENGE_HOME	= String.format("%s/%s", CODE_HOME, CHALLENGE_NAME);
+		String CHALLENGE_HOME	= String.format("%s/%s/%s", CODE_HOME, VAULT_FOLDER, CHALLENGE_NAME);
 		String IO_FILE_INPUT		= String.format("%s/io/input.txt",  CHALLENGE_HOME);
 		String IO_FILE_OUTPUT	= String.format("%s/io/output.txt", CHALLENGE_HOME);
 		System.setIn(new FileInputStream(IO_FILE_INPUT)); //ref. https://stackoverflow.com/a/188654/248616
