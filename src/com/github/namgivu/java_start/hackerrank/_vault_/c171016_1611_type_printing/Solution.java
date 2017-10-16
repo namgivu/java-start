@@ -21,8 +21,6 @@ public class Solution {
 		//endregion io - redirect I/O to files
 
 		Scanner scan = new Scanner(System.in);
-		String l;
-
 		int i = scan.nextInt();
 		Double d = scan.nextDouble();
 		scan.nextLine(); //skip empty value by int/double lines
