@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 
 public class Solution {
+
+	//challenge ref. https://www.hackerrank.com/challenges/java-stdin-and-stdout-1
 	static String CHALLENGE_NAME	= "hackerrank/c171016_1100_inout";
 	static String CODE_HOME 			= "/home/namgvu/NN/code/java-start/src/com/github/namgivu/java_start";
 

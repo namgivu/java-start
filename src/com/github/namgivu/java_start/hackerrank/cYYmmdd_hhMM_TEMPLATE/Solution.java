@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 
 public class Solution {
+
+	//challenge ref. https://www.hackerrank.com/challenges/YOUR-CHALLENGE
 	static String CHALLENGE_NAME	= "hackerrank/cYYmmdd_hhMM_TEMPLATE";
 	static String CODE_HOME 			= "/home/namgvu/NN/code/java-start/src/com/github/namgivu/java_start";
 
