@@ -1,4 +1,4 @@
-package com.github.namgivu.java_start.hackerrank._vault_.c171016_1020_hello;
+package com.github.namgivu.java_start.hackerrank._vault_.c171016.c171016_1020_hello;
 
 
 public class Solution {

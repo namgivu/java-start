@@ -1,7 +1,6 @@
-package com.github.namgivu.java_start.hackerrank._vault_.c171016_1811_init_block;
+package com.github.namgivu.java_start.hackerrank._vault_.c171016.c171016_1811_init_block;
 
 import com.github.namgivu.java_start.util.Util;
-import com.sun.org.apache.xpath.internal.operations.Bool;
 
 import java.io.*;
 import java.util.Scanner;
@@ -11,7 +10,7 @@ public class Solution {
 
 	//challenge ref. https://www.hackerrank.com/challenges/java-end-of-file/problem
 	static String CODE_HOME 			= "/home/namgvu/NN/code/java-start/src/com/github/namgivu/java_start";
-	static String VAULT_FOLDER		= "hackerrank/_vault_";
+	static String VAULT_FOLDER		= "hackerrank/_vault_/c171016";
 	static String CHALLENGE_NAME	= "c171016_1811_init_block";
 
 	static Boolean flag = false;

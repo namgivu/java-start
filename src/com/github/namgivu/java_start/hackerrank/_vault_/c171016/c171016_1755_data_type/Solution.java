@@ -1,4 +1,4 @@
-package com.github.namgivu.java_start.hackerrank._vault_.c171016_1755_data_type;
+package com.github.namgivu.java_start.hackerrank._vault_.c171016.c171016_1755_data_type;
 
 import com.github.namgivu.java_start.util.Util;
 

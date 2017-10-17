@@ -1,4 +1,4 @@
-package com.github.namgivu.java_start.hackerrank._vault_.c171016_1622_output_format;
+package com.github.namgivu.java_start.hackerrank._vault_.c171016.c171016_1622_output_format;
 
 import com.github.namgivu.java_start.util.Util;
 

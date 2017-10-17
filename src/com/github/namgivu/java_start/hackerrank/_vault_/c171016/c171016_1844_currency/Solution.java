@@ -1,4 +1,4 @@
-package com.github.namgivu.java_start.hackerrank._vault_.c171016_1844_currency;
+package com.github.namgivu.java_start.hackerrank._vault_.c171016.c171016_1844_currency;
 
 import com.github.namgivu.java_start.util.Util;
 
@@ -12,7 +12,7 @@ public class Solution {
 
 	//challenge ref. https://www.hackerrank.com/challenges/java-currency-formatter/problem
 	static String CODE_HOME 			= "/home/namgvu/NN/code/java-start/src/com/github/namgivu/java_start";
-	static String VAULT_FOLDER		= "hackerrank/_vault_";
+	static String VAULT_FOLDER		= "hackerrank/_vault_/c171016";
 	static String CHALLENGE_NAME	= "c171016_1844_currency";
 
 	public static void main(String[] args) throws FileNotFoundException {
