@@ -31,7 +31,6 @@ public class Solution {
 			//regex in java usage ref. https://www.hackerrank.com/challenges/duplicate-word
 			//- declare regex matcher 'm'
 			//- matcher 'm' usage 1) m.find(), 2) m.group(1)
-//			String regex = "<[^>]+>([^<]+?)</[^>]+>"; Pattern p = Pattern.compile(regex); Matcher m = p.matcher(line);
 			String regex = "<([^>]+)>([^<]+?)</\\1>"; Pattern p = Pattern.compile(regex); Matcher m = p.matcher(line);
 
 			List<String> values = new ArrayList<String>();
