@@ -1,4 +1,4 @@
-package com.github.namgivu.java_start.hackerrank._vault_.regex.c171017_1311_syntax_check;
+package com.github.namgivu.java_start.hackerrank._vault_.regex.c171017_1300_syntax_check;
 
 import com.github.namgivu.java_start.util.Util;
 
@@ -12,7 +12,7 @@ public class Solution {
 	//challenge ref. https://www.hackerrank.com/challenges/pattern-syntax-checker/problem
 	static String CODE_HOME = "/home/namgvu/NN/code/java-start/src/com/github/namgivu/java_start";
 	static String VAULT_FOLDER = "hackerrank/_vault_/regex";
-	static String CHALLENGE_NAME = "c171017_1311_syntax_check";
+	static String CHALLENGE_NAME = "c171017_1300_syntax_check";
 
 
 	public static void main(String[] args) throws FileNotFoundException {
