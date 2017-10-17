@@ -1,10 +1,8 @@
-package com.github.namgivu.java_start.hackerrank._vault_.c171017.c171017_1311_syntax_check;
+package com.github.namgivu.java_start.hackerrank._vault_.regex.c171017_1311_syntax_check;
 
 import com.github.namgivu.java_start.util.Util;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -13,7 +11,7 @@ public class Solution {
 
 	//challenge ref. https://www.hackerrank.com/challenges/pattern-syntax-checker/problem
 	static String CODE_HOME = "/home/namgvu/NN/code/java-start/src/com/github/namgivu/java_start";
-	static String VAULT_FOLDER = "hackerrank/_vault_/c171017";
+	static String VAULT_FOLDER = "hackerrank/_vault_/regex";
 	static String CHALLENGE_NAME = "c171017_1311_syntax_check";
 
 

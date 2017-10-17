@@ -1,4 +1,4 @@
-package com.github.namgivu.java_start.hackerrank._vault_.c171017.c171017_1333_tag_extract;
+package com.github.namgivu.java_start.hackerrank._vault_.regex.c171017_1333_tag_extract;
 
 import com.github.namgivu.java_start.util.Util;
 
@@ -14,7 +14,7 @@ public class Solution {
 
 	//challenge ref. https://www.hackerrank.com/challenges/tag-content-extractor/problem
 	static String CODE_HOME = "/home/namgvu/NN/code/java-start/src/com/github/namgivu/java_start";
-	static String VAULT_FOLDER = "hackerrank/_vault_/c171017";
+	static String VAULT_FOLDER = "hackerrank/_vault_/regex";
 	static String CHALLENGE_NAME = "c171017_1333_tag_extract";
 
 
