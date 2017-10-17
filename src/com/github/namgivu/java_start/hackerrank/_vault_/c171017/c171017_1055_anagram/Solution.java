@@ -45,7 +45,7 @@ public class Solution {
 		} else {//size/length is equal, we go deeper into each character
 			//foreach java Map ref. https://stackoverflow.com/a/46908/248616
 			boolean check = true;
-			for (java.util.Map.Entry<String, Integer> en : countA.entrySet()) {
+			for (java.util.Map.Entry<String, Integer> en : countA.entrySet()) {//consider to use java 8 .forEach() ref. https://www.mkyong.com/java8/java-8-foreach-examples/
 				String k = en.getKey();
 				if (!countB.containsKey(k)) { //a character 'k' in 'a' but not in 'b'
 					check=false;
