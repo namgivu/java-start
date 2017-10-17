@@ -1,5 +1,7 @@
 package com.github.namgivu.java_start.hackerrank._vault_.c171017.c171017_1055b_anagram;
 
+import com.github.namgivu.java_start.util.Util;
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -19,7 +21,7 @@ public class Solution {
 	}
 
 	public static void main(String[] args) throws FileNotFoundException {
-		com.github.namgivu.java_start.util.Util.redirectIO(CODE_HOME, VAULT_FOLDER, CHALLENGE_NAME);
+		Util.redirectIO(CODE_HOME, VAULT_FOLDER, CHALLENGE_NAME);
 
 		Scanner scan = new Scanner(System.in);
 		String a = scan.next();

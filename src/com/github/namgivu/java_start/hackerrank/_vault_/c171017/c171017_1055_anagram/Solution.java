@@ -1,5 +1,7 @@
 package com.github.namgivu.java_start.hackerrank._vault_.c171017.c171017_1055_anagram;
 
+import com.github.namgivu.java_start.util.Util;
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -13,7 +15,7 @@ public class Solution {
 
 	static boolean isAnagram(String a, String b) {
 		//region function in function
-		class Util {
+		class UtilClass {
 			public java.util.Map<String, Integer> countChar(String s) {
 				java.util.Map<String, Integer> m = new java.util.HashMap<String, Integer>(); //python-alike dictionary in java ref. https://stackoverflow.com/questions/13543457/how-do-you-create-a-dictionary-in-java
 				for (int i = 0; i < s.length(); i++) {
@@ -28,7 +30,7 @@ public class Solution {
 				return m;
 			}
 		}
-		Util u = new Util();
+		UtilClass u = new UtilClass();
 		//endregion function in function
 
 		java.util.Map<String, Integer> countA = u.countChar(a);
@@ -64,7 +66,7 @@ public class Solution {
 	}
 
 	public static void main(String[] args) throws FileNotFoundException {
-		com.github.namgivu.java_start.util.Util.redirectIO(CODE_HOME, VAULT_FOLDER, CHALLENGE_NAME);
+		Util.redirectIO(CODE_HOME, VAULT_FOLDER, CHALLENGE_NAME);
 
 		Scanner scan = new Scanner(System.in);
 		String a = scan.next();
