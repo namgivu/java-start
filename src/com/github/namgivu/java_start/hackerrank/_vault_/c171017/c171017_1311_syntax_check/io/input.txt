@@ -1,0 +1,46 @@
+10
+[][]
+[           ]
+[ ]
+[a]
+sanjay
+shafaet
+sasas asasasa sasasas asasasas
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<
+$$$$$$$$$$$$$
+
+
+3
+([A-Z])(.+)
+[AZ[a-z](a-z)
+batcatpat(nat
+
+    Valid
+    Not Valid
+    Not Valid
+
+---
+
+10
+[][]
+[           ]
+[ ]
+[a]
+sanjay
+shafaet
+sasas asasasa sasasas asasasas
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<
+$$$$$$$$$$$$$
+
+    Invalid
+    Valid
+    Valid
+    Valid
+    Valid
+    Valid
+    Valid
+    Valid
+    Valid
+    Valid
