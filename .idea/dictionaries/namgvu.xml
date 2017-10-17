@@ -2,9 +2,12 @@
   <dictionary name="namgvu">
     <words>
       <w>hackerrank</w>
+      <w>itos</w>
       <w>namgivu</w>
       <w>namgvu</w>
+      <w>testcase</w>
       <w>ymmdd</w>
+      <w>yyyy</w>
     </words>
   </dictionary>
 </component>
