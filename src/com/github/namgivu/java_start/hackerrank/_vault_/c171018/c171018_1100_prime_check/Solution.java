@@ -29,13 +29,13 @@ public class Solution {
 	//region prime check solutions
 
 	/**
-	 * prime check ref. https://stackoverflow.com/a/32035942/248616
+	 * prime check MAIN
 	 */
-
 	static boolean isPrime(BigInteger number) {
 		return isPrime_JuanLopes(number); //this is slow and get timeout-terminated by hackerrank
 		//return isPrime_AJNatural(number);
 	}
+
 
 	/**
 	 * prime check by JuanLopes ref. https://stackoverflow.com/a/32035942/248616
@@ -64,6 +64,15 @@ public class Solution {
 		//all checked, it's a prime
 		return true;
 	}
+
+
+	/**
+	 * prime check by AJNatural ref. https://stackoverflow.com/a/32035942/248616
+	 */
+	static boolean isPrime_AJNatural(BigInteger number) {
+		return false;
+	}
+
 
 	//endregion prime check solutions
 
