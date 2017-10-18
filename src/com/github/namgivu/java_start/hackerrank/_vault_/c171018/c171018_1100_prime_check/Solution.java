@@ -32,8 +32,8 @@ public class Solution {
 	 * prime check MAIN
 	 */
 	static boolean isPrime(BigInteger number) {
-		return isPrime_JuanLopes(number); //this is slow and get timeout-terminated by hackerrank
-		//return isPrime_AJNatural(number);
+		//return isPrime_JuanLopes(number); //this is slow and get timeout-terminated by hackerrank
+		return isPrime_AJNatural(number);
 	}
 
 
