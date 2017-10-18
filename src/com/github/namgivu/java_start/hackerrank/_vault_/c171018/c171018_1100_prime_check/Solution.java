@@ -66,9 +66,18 @@ public class Solution {
 
 
 	/**
-	 * prime check by AJNatural ref. https://stackoverflow.com/a/32035942/248616
+	 * prime check by AJNatural ref. https://stackoverflow.com/a/3886003/248616
 	 */
 	static boolean isPrime_AJNatural(BigInteger number) {
+		/*
+		def isprime(number):
+			if number == 2: return True
+			if number < 2 or number % 2 == 0: return False
+			return not any(number % i == 0 for i in range(3, int(sqrt(number)) + 1, 2))
+		 */
+		BigInteger two = new BigInteger("2");
+		if (number.compareTo(two) == 0) { return true; }
+		if (number.compareTo(two)<0 || number.mod(two).compareTo(BigInteger.ZERO)==0) { return false; }
 		return false;
 	}
 
