@@ -2,9 +2,8 @@ package com.github.namgivu.java_start.hackerrank._vault_.c171018.c171018_1100_pr
 
 import com.github.namgivu.java_start.util.Util;
 
-import java.io.*;
+import java.io.FileNotFoundException;
 import java.math.BigInteger;
-import java.util.Arrays;
 import java.util.Scanner;
 
 
@@ -33,7 +32,7 @@ public class Solution {
 	 */
 	static boolean isPrime(BigInteger number) {
 		//return isPrime_JuanLopes(number); //this is slow and get timeout-terminated by hackerrank
-		return isPrime_AJNatural(number);
+		return isPrime_AJNatural(number); //TODO hope this approach may pass the timeout
 	}
 
 
@@ -41,7 +40,7 @@ public class Solution {
 	 * prime check by JuanLopes ref. https://stackoverflow.com/a/32035942/248616
 	 */
 	static boolean isPrime_JuanLopes(BigInteger number) {
-		//TODO still get terminated by timeout, need improved!
+		//This get terminated by timeout, need improved!
 		//check via BigInteger.isProbablePrime()
 		if (!number.isProbablePrime(5)) {
 			return false;
