@@ -25,10 +25,22 @@ public class Solution {
 		System.out.println(isPrime(number)?"prime":"not prime");
 	}
 
+
+	//region prime check solutions
+
 	/**
 	 * prime check ref. https://stackoverflow.com/a/32035942/248616
 	 */
+
 	static boolean isPrime(BigInteger number) {
+		return isPrime_JuanLopes(number); //this is slow and get timeout-terminated by hackerrank
+		//return isPrime_AJNatural(number);
+	}
+
+	/**
+	 * prime check by JuanLopes ref. https://stackoverflow.com/a/32035942/248616
+	 */
+	static boolean isPrime_JuanLopes(BigInteger number) {
 		//TODO still get terminated by timeout, need improved!
 		//check via BigInteger.isProbablePrime()
 		if (!number.isProbablePrime(5)) {
@@ -52,6 +64,8 @@ public class Solution {
 		//all checked, it's a prime
 		return true;
 	}
+
+	//endregion prime check solutions
 
 	//the end
 }
