@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Solution {
 
-	//challenge ref. https://www.hackerrank.com/challenges/YOUR-CHALLENGE
+	//challenge ref. https://www.hackerrank.com/challenges/java-primality-test/problem
 	static String CODE_HOME 			= "/home/namgvu/NN/code/java-start/src/com/github/namgivu/java_start";
 	static String VAULT_FOLDER		= "hackerrank/_vault_/c171018";
 	static String CHALLENGE_NAME	= "c171018_1100_prime_check";
@@ -70,7 +70,7 @@ public class Solution {
 	 */
 	static boolean isPrime_AJNatural(BigInteger number) {
 		/*
-		def isprime(number):
+		def isPrime(number):
 			if number == 2: return True
 			if number < 2 or number % 2 == 0: return False
 			return not any(number % i == 0 for i in range(3, int(sqrt(number)) + 1, 2))
@@ -78,7 +78,35 @@ public class Solution {
 		BigInteger two = new BigInteger("2");
 		if (number.compareTo(two) == 0) { return true; }
 		if (number.compareTo(two)<0 || number.mod(two).compareTo(BigInteger.ZERO)==0) { return false; }
-		return false;
+
+		/**
+		 *sqrt for BigInteger ref. https://stackoverflow.com/a/16804098/248616
+		 */
+		class util {
+			BigInteger SqrtBigInteger(BigInteger x) {
+				BigInteger div = BigInteger.ZERO.setBit(x.bitLength()/2);
+				BigInteger div2 = div;
+				// Loop until we hit the same value twice in a row, or wind up alternating.
+				for(;;) {
+					BigInteger y = div.add(x.divide(div)).shiftRight(1);
+					if (y.equals(div) || y.equals(div2))
+						return y;
+					div2 = div;
+					div = y;
+				}
+			}
+		}
+
+		BigInteger n = new util().SqrtBigInteger(number);
+		boolean isPrime = true;
+		for (BigInteger i=new BigInteger("3"); i.compareTo(n)<=0; i=i.add(two)) {
+			if (number.mod(i).compareTo(BigInteger.ZERO)==0) {
+				isPrime=false;
+				break;
+			}
+		}
+
+		return isPrime;
 	}
 
 
