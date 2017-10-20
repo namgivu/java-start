@@ -35,10 +35,10 @@ public class Solution {
 	}
 
 	private static boolean canWin(int leap, int[] game) {
-		ArrayList<Integer> C = new ArrayList<>();			//C for current cell
-		ArrayList<Integer> nx;												//nx for next cell
+		ArrayList<Integer> C = new ArrayList<>(); //C for current cell
+		ArrayList<Integer> nx;										//nx for next cell
 		int n = game.length;
-		boolean[] visit = new boolean[n];//marking which cell is visited
+		boolean[] visit = new boolean[n]; //marking which cell is visited
 
 		int i=0;
 		C.add(i);
